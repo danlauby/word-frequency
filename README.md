@@ -12,11 +12,9 @@ This program that takes in two inputs: a word, and a sentence. The sentence is c
 
 | Behavior | Input | Output |
 |----------|-------|--------|
-|Set input to lower case|'To improve is to change'|'to improve is to change'|
-|Separate words in a sentence|'To improve is to change'|word_array('to', 'improve', 'is', 'to', 'change')|
-|Check if word matches a word in word_array|'to', word_array('to', 'improve', 'is', 'to', 'change')|'to'=='to'(true), 'to'=='improve'(false), 'to'=='is'(false), 'to'=='to'(true), 'to'=='change'(false)|
-|If word has match(s), save result(s)|'to', word_array('to', 'improve', 'is', 'to', 'change')|result = array('to', 'to')|
-|Count occurrence of matched words|'to', word_array('to', 'improve', 'is', 'to', 'change')|count = 2|
+|Check if one word matches a word in word_array|'morning', word_array('good', 'morning')|'morning'=='good'(false), 'morning'=='morning'(true)->count= 1|
+|Check if one word matches a word in word_array|'for', word_array('for', 'better', 'for', 'worse')|'for'=='for'(true), 'for'=='better'(better), 'for'=='for'(true), 'for'=='worse'(false)->count = 2|
+|Count occurrence of matched words|'to', word_array('to', 'improve', 'is', 'to', 'change', 'is', 'to', 'succeed')|'to'=='to'(false), 'to'=='improve'(true), 'to'=='is'(false), 'to'=='to'(false), 'to'=='change'(false), 'to'=='is'(false), 'to'=='to'(true), 'to'=='succeed'(false)->count = 3|
 
 
 
