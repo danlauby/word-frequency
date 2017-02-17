@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+
+html .container {
+  min-height: 100%;
+}
+
+body {
+    background-color: rgb(123, 121, 128);
+    /*background-image: url('../img/graffiti.jpg');*/
+}
+
+h2 {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: rgb(228, 221, 225);
+    margin: 0;
+}
+
+.jumbotron h1 {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.sub-header {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 40px;
+}
+
+.footer {
+    background-color: rgb(228, 221, 225);
+    padding: 30px;
+}
+
+.bold {
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(210, 199, 208);
+    margin-bottom: -20px;
+}
