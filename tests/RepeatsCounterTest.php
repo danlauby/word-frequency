@@ -42,20 +42,20 @@
             //Assert
             $this->assertEquals(2, $result);
         }
-        //
-        // function test_threeWords()
-        // {
-        //     // Arrange
-        //     $test_RepeatCounter = new RepeatCounter;
-        //     $input_word = 'to';
-        //     $input_sentence = 'To improve is to change is to succeed';
-        //
-        //     // Act
-        //     $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
-        //
-        //     //Assert
-        //     $this->assertEquals(3, $result);
-        // }
+
+        function test_threeWords()
+        {
+            // Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $input_word = 'to';
+            $input_sentence = 'To improve is to change is to succeed';
+
+            // Act
+            $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
+
+            //Assert
+            $this->assertEquals(3, $result);
+        }
 
 
 
