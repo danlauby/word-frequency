@@ -15,18 +15,18 @@
             //Assert
             $this->assertEquals(0, $result);
         }
-        // function test_oneWord()
-        // {
-        //     // Arrange
-        //     $input_word = 'morning';
-        //     $input_sentence = 'Good morning';
-        //     $test_RepeatCounter = new RepeatCounter($input_word, $input_sentence);
-        //
-        //     // Act
-        //     $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
-        //     //Assert
-        //     $this->assertEquals(1, $result);
-        // }
+        function test_oneWord()
+        {
+            // Arrange
+            $input_word = 'morning';
+            $input_sentence = 'Good morning';
+            $test_RepeatCounter = new RepeatCounter($input_word, $input_sentence);
+
+            // Act
+            $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
+            //Assert
+            $this->assertEquals(1, $result);
+        }
 
         // function test_twoWords()
         // {
