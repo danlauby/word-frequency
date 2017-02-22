@@ -15,7 +15,7 @@
             //Assert
             $this->assertEquals(0, $result);
         }
-        
+
         function test_oneWord()
         {
             // Arrange
@@ -29,19 +29,19 @@
             $this->assertEquals(1, $result);
         }
 
-        // function test_twoWords()
-        // {
-        //     // Arrange
-        //     $test_RepeatCounter = new RepeatCounter;
-        //     $input_word = 'for';
-        //     $input_sentence = 'For better for worse';
-        //
-        //     // Act
-        //     $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
-        //
-        //     //Assert
-        //     $this->assertEquals(2, $result);
-        // }
+        function test_twoWords()
+        {
+            // Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $input_word = 'for';
+            $input_sentence = 'For better for worse';
+
+            // Act
+            $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
+
+            //Assert
+            $this->assertEquals(2, $result);
+        }
         //
         // function test_threeWords()
         // {

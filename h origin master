@@ -1,0 +1,101 @@
+[33mcommit a6acdb8fcd4fa763448b182d5f46b90244ea334a[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Tue Feb 21 19:55:56 2017 -0800
+
+    Add missing arguments when instantiating test_RepeatCounter to pass test_oneWord
+
+[33mcommit 7c7b2663fd27ee38c61413d0f00b97698c25a861[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Tue Feb 21 19:45:01 2017 -0800
+
+    Test if word is not present in sentence, pass
+
+[33mcommit e7129cffe7bfa46e0b123f9c8ae82d65b64805d1[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Tue Feb 21 19:41:51 2017 -0800
+
+    Test if word is not present in sentence, pass
+
+[33mcommit af4b8537b5a2bbad322500f608c576ada8d04a70[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 18:14:32 2017 -0800
+
+    Remove textarea and use regular input
+
+[33mcommit e88074e11743cbe860a74d986d6923623c56deb6[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 18:01:20 2017 -0800
+
+    Change sentence input to textarea
+
+[33mcommit 3c0f8efe8252afce186cad6b26b7dc17243398b0[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 15:43:49 2017 -0800
+
+    Add background image
+
+[33mcommit 87babd73664788ee4d11b548ab8f014a20b5c0f1[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 15:27:06 2017 -0800
+
+    Change color of displayed variables
+
+[33mcommit b46eacd70bc51485a318f32f7d42736ec9246f9a[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 15:12:47 2017 -0800
+
+    Add basic design with CSS and adjust headers
+
+[33mcommit a8e36bcffc222f756df6801fbbb21544ef2f62d3[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 13:57:05 2017 -0800
+
+    Create a submit and display twig template
+
+[33mcommit 0e8ffb8a6209812dd870157517beccaa2b0ca3dc[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 13:42:00 2017 -0800
+
+    Add properties, getters and setters to RepeatCounter class
+
+[33mcommit 4ef69dd989022533370c74e9b3515f67ebc887fb[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 13:36:40 2017 -0800
+
+    Run app in index.php and create basic routing in app.php
+
+[33mcommit 54d649de19e4cd7c044b58d58c02755b6dd76a7f[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 13:28:54 2017 -0800
+
+    Refactor specs
+
+[33mcommit 2723b834854de82cc88149edfd69a548f4de4fb3[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 13:28:08 2017 -0800
+
+    Check sentence for three words, refactor class and tests
+
+[33mcommit bfe836e35246745109e9033bd455110895092a7d[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 09:39:10 2017 -0800
+
+    Test seperation of words in string, pass
+
+[33mcommit 64f57f0a4e0957b8c5649a6c1d22934080b3385e[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 09:22:26 2017 -0800
+
+    Test string for lowercase, pass
+
+[33mcommit 584985ebb64072d5328b6f0d7535ff74dcc84ec1[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 08:48:58 2017 -0800
+
+    Add dependencies and install Composer
+
+[33mcommit 656eb4ee38fa8dddac7e2d002a2eda31ae55d695[m
+Author: danlauby <dmlauby@gmail.com>
+Date:   Fri Feb 17 08:41:00 2017 -0800
+
+    Initialize word-frequency directory and add README.md
