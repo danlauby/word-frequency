@@ -12,6 +12,7 @@ This program that takes in two inputs: a word, and a sentence. The sentence is c
 
 | Behavior | Input | Output |
 |----------|-------|--------|
+|Check if there are no matching words|'hello', word_array('good', 'morning')|'hello'=='good'(false), 'hello'=='morning'(false)->count= 0|
 |Check if one word matches a word in word_array|'morning', word_array('good', 'morning')|'morning'=='good'(false), 'morning'=='morning'(true)->count= 1|
 |Check if one word matches a word in word_array|'for', word_array('for', 'better', 'for', 'worse')|'for'=='for'(true), 'for'=='better'(better), 'for'=='for'(true), 'for'=='worse'(false)->count = 2|
 |Count occurrence of matched words|'to', word_array('to', 'improve', 'is', 'to', 'change', 'is', 'to', 'succeed')|'to'=='to'(false), 'to'=='improve'(true), 'to'=='is'(false), 'to'=='to'(false), 'to'=='change'(false), 'to'=='is'(false), 'to'=='to'(true), 'to'=='succeed'(false)->count = 3|
