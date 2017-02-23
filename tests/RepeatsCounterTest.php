@@ -57,7 +57,19 @@
             $this->assertEquals(3, $result);
         }
 
+        function test_specialCharacters()
+        {
+            // Arrange
+            $input_word = "there";
+            $input_sentence = "Hello there!";
+            $test_RepeatCounter = new RepeatCounter($input_word, $input_sentence);
 
+            // Act
+            $result = $test_RepeatCounter->countRepeats($input_word, $input_sentence);
+
+            // Assert
+            $this->assertEquals(1, $result);
+        }
 
 
     }

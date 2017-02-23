@@ -36,7 +36,8 @@
             $seperated_words = explode(" ", $input_sentence);
 
             foreach ($seperated_words as $word) {
-                if (strtolower($input_word) == strtolower($word)) {
+                $trimmed_word = trim($word, "!?.-,");
+                if (strtolower($input_word) == strtolower($trimmed_word)) {
                     $count++;
                 }
             }
